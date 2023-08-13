@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    font-family: "poppins";
+    color:#ffff;
+    background:#559db7;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    width:26%;
+    /* height:16%; */
+    
+}
+.card
+{
+    border-radius:50px;
+    background: #87CEEB;
+    box-shadow:5px 5px 10px #a3d3e5,-5px -5px 10px #00b3fa;
+    padding:3%;
+    text-align: center;
+}
+.card h4{
+    font-size: 4rem;
+    font-weight:400;
+    margin:1rem 0;
+    color:#ffff;
+}
+.card h2{
+    color:#ffff;
+}
+img #icon{
+    width:20%;
+}
+h6 #weather{
+    text-transform:capitalize;
+    
+}
+button.refresh{
+    display:block;
+    width:100px;
+    margin:10px auto;
+    background:transparent;
+    border:1px solid #c4e2f1;
+    color:#ffff;
+    font-size:30px;
+    height:100px;
+    border-radius:50%;
+    box-shadow:10px 4px 10px #c6dde5;
+}
+button.refresh:hover{
+    box-shadow:inset 10px 4pc 10pc #00b3fa,inset 5px 5px 18px;
+}
+#location
+{
+    color:white;
+}
+#weather,#temp,#icon{
+    color:white;
+}
+#temp{
+    color:white;
+}
+.fa-map-marker{
+    color:White;
+}
+h4{
+    color:white;
+}
+/* body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family:"Poppins";
+
+    background:rgb(147, 213, 239);
+}
+body{
+    color:#eff2f3;
+}
+.container{
+    width:26%;
+}
+.card{
+    border-radius: 50px;
+    background: #343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    padding: 3%;
+    text-align: center;
+}
+.card h4{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+img#icon{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+h6 #weather{
+    text-transform: capitalize;
+}
+
+button.refresh{
+    display:block;
+    width:100px;
+    margin:10px auto;
+    background:transparent;
+    border:0;
+    color:#fff;
+    font-size: 30px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow:10px 4px 10px #252525,5px 5px 18px #4a4a4a;
+}
+button.refresh:hover{
+    box-shadow: inset 10px 4px 10px #252525,5px 5px 18px #4a4a4a;;
+}
+#location
+{
+    color:white;
+}
+#weather,#temp,#icon{
+    color:white;
+}
+#temp{
+    color:white;
+}
+.fa-map-marker{
+    color:White;
+}
+h4{
+    color:white;
+} */
